@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TeamNameTitleStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TeamNameStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_below">@id/tviTeamNameTitle</item>
+    </style>
+
+    <style name="TeamStadiumTitleStyle">
+        <item name="android:layout_below">@id/tviTeamName</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TeamStadiumStyle">
+        <item name="android:layout_below">@id/tviTeamStadiumTitle</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="sFoundedYear">Año de fundación: %s</string>
+    <string name="sNextFiveEvents">Próximos 5 eventos: %s</string>
+</resources>
