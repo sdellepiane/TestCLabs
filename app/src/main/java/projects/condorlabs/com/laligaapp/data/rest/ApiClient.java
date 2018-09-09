@@ -1,12 +1,10 @@
 package projects.condorlabs.com.laligaapp.data.rest;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import projects.condorlabs.com.laligaapp.BuildConfig;
-import projects.condorlabs.com.laligaapp.data.entity.TeamEntity;
 import projects.condorlabs.com.laligaapp.data.entity.response.NextFiveEventsResponse;
 import projects.condorlabs.com.laligaapp.data.entity.response.TeamListResponse;
 import retrofit2.Call;

@@ -1,7 +1,5 @@
 package projects.condorlabs.com.laligaapp.domain.model;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 
 public class TeamModel implements Serializable{

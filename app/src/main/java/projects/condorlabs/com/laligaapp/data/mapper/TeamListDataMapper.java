@@ -9,8 +9,6 @@ import projects.condorlabs.com.laligaapp.domain.model.TeamModel;
 
 public class TeamListDataMapper {
 
-    private static TeamListDataMapper mInstance;
-
     public List<TeamModel> transformTeamList(List<TeamEntity> teamEntityList){
         List<TeamModel> teamModelList = new ArrayList<>();
         if(teamEntityList != null && teamEntityList.size() > 0){
@@ -78,12 +76,5 @@ public class TeamListDataMapper {
             teamModel.setLocked(teamEntity.getStrLocked() != null ? teamEntity.getStrLocked() : Constants.EMPTY_STRING);
         }
         return teamModel;
-    }
-
-    public static synchronized TeamListDataMapper getInstance() {
-        if (mInstance == null) {
-            mInstance = new TeamListDataMapper();
-        }
-        return mInstance;
     }
 }

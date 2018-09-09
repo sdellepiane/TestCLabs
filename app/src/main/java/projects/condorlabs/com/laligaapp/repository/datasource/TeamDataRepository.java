@@ -3,13 +3,9 @@ package projects.condorlabs.com.laligaapp.repository.datasource;
 import java.util.List;
 
 import projects.condorlabs.com.laligaapp.data.entity.NextFiveEventsEntity;
-import projects.condorlabs.com.laligaapp.data.entity.TeamEntity;
 import projects.condorlabs.com.laligaapp.data.mapper.TeamDataMapper;
-import projects.condorlabs.com.laligaapp.data.mapper.TeamListDataMapper;
 import projects.condorlabs.com.laligaapp.domain.interactor.TeamCallback;
-import projects.condorlabs.com.laligaapp.domain.interactor.TeamListCallback;
 import projects.condorlabs.com.laligaapp.domain.model.NextFiveEventsModel;
-import projects.condorlabs.com.laligaapp.domain.model.TeamModel;
 import projects.condorlabs.com.laligaapp.domain.repository.TeamRepository;
 import projects.condorlabs.com.laligaapp.repository.RepositoryCallback;
 

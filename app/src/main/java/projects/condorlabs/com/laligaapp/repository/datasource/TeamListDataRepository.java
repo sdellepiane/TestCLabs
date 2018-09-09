@@ -3,7 +3,6 @@ package projects.condorlabs.com.laligaapp.repository.datasource;
 import java.util.List;
 
 import projects.condorlabs.com.laligaapp.data.entity.TeamEntity;
-import projects.condorlabs.com.laligaapp.data.entity.response.TeamListResponse;
 import projects.condorlabs.com.laligaapp.data.mapper.TeamListDataMapper;
 import projects.condorlabs.com.laligaapp.domain.interactor.TeamListCallback;
 import projects.condorlabs.com.laligaapp.domain.model.TeamModel;

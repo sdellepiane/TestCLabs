@@ -2,8 +2,6 @@ package projects.condorlabs.com.laligaapp.app.ui.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import projects.condorlabs.com.laligaapp.R;
 import projects.condorlabs.com.laligaapp.app.ui.core.BaseCompatActivity;

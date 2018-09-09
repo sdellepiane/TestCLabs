@@ -66,10 +66,10 @@ public class TeamsAdapter extends RecyclerView.Adapter<TeamsAdapter.ViewHolder>{
 
         public ViewHolder(View view) {
             super(view);
-            claTeam = (ConstraintLayout) view.findViewById(R.id.claTeam);
-            iviTeamBadge = (ImageView) view.findViewById(R.id.iviTeamBadge);
-            tviTeamName = (TextView) view.findViewById(R.id.tviTeamName);
-            tviTeamStadium = (TextView) view.findViewById(R.id.tviTeamStadium);
+            claTeam = view.findViewById(R.id.claTeam);
+            iviTeamBadge = view.findViewById(R.id.iviTeamBadge);
+            tviTeamName = view.findViewById(R.id.tviTeamName);
+            tviTeamStadium = view.findViewById(R.id.tviTeamStadium);
         }
     }
 }

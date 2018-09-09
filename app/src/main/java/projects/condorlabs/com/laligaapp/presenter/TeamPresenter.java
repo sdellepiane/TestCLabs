@@ -6,13 +6,11 @@ import projects.condorlabs.com.laligaapp.app.ui.listener.TeamListener;
 import projects.condorlabs.com.laligaapp.data.mapper.TeamDataMapper;
 import projects.condorlabs.com.laligaapp.domain.interactor.TeamCallback;
 import projects.condorlabs.com.laligaapp.domain.interactor.TeamInteractor;
-import projects.condorlabs.com.laligaapp.domain.interactor.TeamListInteractor;
 import projects.condorlabs.com.laligaapp.domain.model.NextFiveEventsModel;
 import projects.condorlabs.com.laligaapp.domain.repository.TeamRepository;
 import projects.condorlabs.com.laligaapp.presenter.view.TeamView;
 import projects.condorlabs.com.laligaapp.repository.datasource.TeamDataRepository;
 import projects.condorlabs.com.laligaapp.repository.datasource.TeamDataStoreFactory;
-import projects.condorlabs.com.laligaapp.repository.datasource.TeamListDataRepository;
 
 public class TeamPresenter implements Presenter<TeamView>, TeamCallback {
 

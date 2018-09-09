@@ -36,6 +36,7 @@ public class TeamListPresenter implements Presenter<TeamListView>, TeamListCallb
     @Override
     public void onGetTeamListFailure(Object object) {
         view.hideLoading();
+        listener.failedLoadData();
     }
 
     @Override

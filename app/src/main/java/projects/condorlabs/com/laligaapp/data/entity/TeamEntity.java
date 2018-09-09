@@ -1,9 +1,5 @@
 package projects.condorlabs.com.laligaapp.data.entity;
 
-import com.google.gson.annotations.SerializedName;
-
-import java.io.Serializable;
-
 public class TeamEntity{
     private int idTeam;
     private int idSoccerXML;
